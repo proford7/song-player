@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fab fa-spotify"></i>
+                <span>Musify</span>
+            </div>
+            <ul class="nav">
+                <li class="active"><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-search"></i> Search</li>
+                <li><i class="fas fa-book"></i> Your Library</li>
+            </ul>
+
+            <div class="playlists">
+                <h3>PLAYLISTS</h3>
+                <ul>
+                    <li><i class="fas fa-plus-circle"></i> Create Playlist</li>
+                    <li><i class="fas fa-heart"></i> Liked Songs</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <div class="navigation">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="user">
+                    <img src="C:\Code\proje 2\user.png" alt="User" />
+                    <span>Dev Bhujade</span>
+                </div>
+            </header>
+
+            <div class="content">
+                <h1>Good afternoon</h1>
+                <h3>Your Playlist</h3>
+                <div class="recently-played">
+                    <div class="recent-song"
+                        data-src="C:\Code\proje 2\songs\DJ Snake, J Balvin, Tyga - Loco Contigo.mp3"
+                        data-title="Loco Contigo" data-artist="DJ Snake" data-cover="C:\Code\proje 2\loco post.jpg">
+                        <img src="C:\Code\proje 2\loco post.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Loco Contigo</h3>
+                        </div>
+                        <span class="duration">Dj Snake</span>
+                    </div>
+                     <div class="recent-song"
+                        data-src="songs/Pedro Capó, Farruko - Calma (Remix - Official Video).mp3"
+                        data-title="Calma Remix" data-artist="Pedro Capo" data-cover="C:\Code\proje 2\calma post.jpg">
+                        <img src="C:\Code\proje 2\calma post.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Calma Remix</h3>
+                        </div>
+                        <span class="duration">Pedro Capo</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="songs/Rema, Selena Gomez - Calm Down (Official Music Video).mp3"
+                        data-title="Calm Down" data-artist="Salena Gomez" data-cover="C:\Code\proje 2\calm down post.jpg">
+                        <img src="C:\Code\proje 2\calm down post.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Calm Down</h3>
+                        </div>
+                        <span class="duration">Salena Gomez</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="C:\Code\proje 2\songs\The Chainsmokers - Closer (Lyric) ft. Halsey.mp3"
+                        data-title="Closer" data-artist="The Chainsmokers" data-cover="C:\Code\proje 2\closer post.jpg">
+                        <img src="C:\Code\proje 2\closer post.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Closer</h3>
+                        </div>
+                        <span class="duration">The Chainsmokers</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="songs/Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3"
+                        data-title="Fein" data-artist="Travis Scott" data-cover="fein popst.jpg">
+                        <img src="fein popst.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Fein</h3>
+                        </div>
+                        <span class="duration">Travis Scott</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="songs/Calvin Harris, Dua Lipa - One Kiss (Official Video).mp3"
+                        data-title="One Kiss" data-artist="Dua Lipa" data-cover="C:\Code\proje 2\one kiss.jpg">
+                        <img src="C:\Code\proje 2\one kiss.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>One Kiss</h3>
+                        </div>
+                        <span class="duration">Dua Lipa</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="C:\Code\proje 2\songs\LSD - Thunderclouds (Official Video) ft. Sia, Diplo, Labrinth.mp3"
+                        data-title="Thunderclouds" data-artist="Sia" data-cover="C:\Code\proje 2\thunderclouds.jpg">
+                        <img src="C:\Code\proje 2\thunderclouds.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Thunderclouds</h3>
+                        </div>
+                        <span class="duration">Sia</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="C:\Code\proje 2\songs\Post Malone, Swae Lee - Sunflower (Spider-Man_ Into the Spider-Verse) (Official Video).mp3"
+                        data-title="Sunflower" data-artist="Post Malone" data-cover="C:\Code\proje 2\sunflower.jpg">
+                        <img src="C:\Code\proje 2\sunflower.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>Sunflower/h3>
+                        </div>
+                        <span class="duration">Post Malone</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="C:\Code\proje 2\songs\Drake - One Dance (Lyrics) ft. Wizkid & Kyla.mp3"
+                        data-title="One Dance" data-artist="Drake" data-cover="C:\Code\proje 2\one dance.jpg">
+                        <img src="C:\Code\proje 2\one dance.jpg" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>One Dance</h3>
+                        </div>
+                        <span class="duration">drake</span>
+                    </div>
+                    <div class="recent-song"
+                        data-src="songs/PSY - GENTLEMAN MV.mp3"
+                        data-title="GENTLEMAN" data-artist="PSY" data-cover="C:\Code\proje 2\psy.png">
+                        <img src="C:\Code\proje 2\psy.png" alt="Album Cover" />
+                        <div class="song-info">
+                            <h3>GENTLEMAN</h3>
+                        </div>
+                        <span class="duration">PSY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player -->
+        <div class="player">
+            <div class="song-info">
+                <img id="current-album-cover" src="C:\Code\proje 2\loco post.jpg" alt="Album Cover" />
+                <div>
+                    <h4 id="current-song-title">Blinding Lights</h4>
+                    <p id="current-song-artist">The Weeknd</p>
+                </div>
+                <i class="far fa-heart"></i>
+            </div>
+
+            <div class="player-controls">
+                <div class="controls">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-pause-circle" id="play-pause-btn"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="progress-container">
+                    <span id="current-time">0:00</span>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <span id="duration">3:20</span>
+                </div>
+            </div>
+
+            <div class="volume-controls">
+                <i class="fas fa-volume-up"></i>
+                <div class="volume-bar-container">
+                    <div class="volume-bar" id="volume-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
